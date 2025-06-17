@@ -21,7 +21,10 @@
     .btn {
         padding: 0.5rem 1rem;
         border-radius: 0.5rem;
-        background-color: #6ca6e4;
+        background-color: linear-gradient(
+            90deg,
+             #007bff, 
+             #0056b3);
         color: white;
         font-weight: bold;
         transition: background-color 0.3s ease;

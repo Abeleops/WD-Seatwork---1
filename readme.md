@@ -9,11 +9,19 @@
     <img src="./assets/img/AbeleOps.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
+<<<<<<< HEAD
   <h3 align="center">WD-Seatwork---1</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
   This project will demonstrate my skills in Web Dev 
+=======
+  <h3 align="center">AbeleOps</h3>
+</div>
+<!-- TODO: Make a short description -->
+<div align="center">
+  WEB DEV tutorial
+>>>>>>> 85e472fb07f75ab83b212a7d3d23707d111d5728
 </div>
 
 <br />
