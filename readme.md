@@ -20,7 +20,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  WEB DEV tutorial
+  
 
 </div>
 
