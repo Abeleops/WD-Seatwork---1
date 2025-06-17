@@ -9,14 +9,17 @@
     display: flex;
     align-items: center;
     padding: 3 rem 2 rem;
+    justify-content: space-between;
     background-color: #0087d4;
 
     }
     .left{
-        flex: 1;
+        align-items: center;
         display: flex;
-        align-items: left;
-        justify-content: flex-end;
+        gap: 0.5rem;
+        .logo {
+            max-width: 10rem;
+        }
     }
     .btn {
         padding: 0.5rem 1rem;
@@ -40,7 +43,4 @@
         color: #0004f8;
         margin-right: 2rem;
     }
-}
-.logo {
-    max-width: 12rem;
 }
