@@ -5,10 +5,15 @@
     box-sizing: border-box;
     text-decoration:none;
 }
-html, body {
+html {
     height: 100%;
 }
-
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* Reset some default styles */
 .body {
     display: flex;
     flex-direction: column;
@@ -39,8 +44,8 @@ html, body {
         }
         .name:hover {
             color: #0004f8;
-            text-decoration: underline;
-        }
+           font-weight: bold;
+      }
         .Section {
             font-size: 2rem;
             color: #0004f8;
