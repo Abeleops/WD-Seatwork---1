@@ -12,6 +12,8 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+
+
 }
 /* Reset some default styles */
 .body {
@@ -43,27 +45,23 @@ body {
             color: #0056b3;
         }
         .name:hover {
-            color: #0004f8;
+            color: #000000;
            font-weight: bold;
       }
-        .Section {
-            font-size: 2rem;
-            color: #0004f8;
-            font-weight: bold;
-           
-        }
         }
         
     
     .right {
         display: flex;
-        gap: 0.5rem;
+        gap: 4rem;
+        
 
     }
     .btn {
         justify-content: space-between;
-        padding: 0.5rem 1rem;
-        border-radius: 0.5rem;
+        padding: 3rem 5rem;
+        border-radius: 0.5rem;  
+        font-size: 1.5rem;
          background: linear-gradient(
         90deg,
         rgba(0, 183, 255, 0.425) 0%,
@@ -120,6 +118,7 @@ body {
 
 .hero {
     background-color: #0000fa86;
+    height: 100%;
     display: flex;
     flex-direction: column;
     text-align: center  ;
