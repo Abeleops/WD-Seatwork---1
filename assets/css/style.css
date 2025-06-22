@@ -151,7 +151,7 @@ body {
         height: 100%;
         
          .logo {
-            max-width: 12rem;
+            max-width: 9rem;
         }
          .logo:hover {
             transform: scale(1.1); 
