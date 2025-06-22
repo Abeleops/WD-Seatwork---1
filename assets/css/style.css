@@ -170,8 +170,8 @@ body {
     }
 }
     .btn-1 {
-        justify-content: space-evenly;
-        padding: 3rem 5rem;
+        justify-content: space-between;
+        padding: 1rem 2rem;
         border-radius: 0.5rem;  
         font-size: 1.5rem;
          background: linear-gradient(
@@ -196,12 +196,6 @@ body {
             box-shadow: 2rem 4rem 6rem rgba(0, 0, 0, 0.42);
             background-color: #46dcf0fa;
         }
-        .h2 {
-        font-size: 2rem;
-        font-weight: bold;
-        color: #0004f8;
-        margin-right: 2rem;
-    }
     .search {
         padding: 5rem 10rem;
         border-radius: 10rem;
