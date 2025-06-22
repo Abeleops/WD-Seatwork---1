@@ -28,7 +28,7 @@ body {
     align-items: center;
     padding: 0.5rem 3rem;
     justify-content: space-between;
-    background-color: #FAF1E6;
+    background-color: #ffffffc2;
 
 
     }
@@ -40,12 +40,16 @@ body {
         .logo {
             max-width: 10rem;
         }
+        .logo:hover {
+            transform: scale(1.1); 
+            transition: transform 0.3s ease;
+        }
         .name{
             font-size: 2rem;
             color: #000000;
         }
         .name:hover {
-            color: #FDFAF6;
+            color: #3f3f3f;
            font-weight: bold;
       }
         }
@@ -64,9 +68,9 @@ body {
         font-size: 1.5rem;
          background: linear-gradient(
         90deg,
-        rgba(0, 183, 255, 0.425) 0%,
-        rgba(0, 153, 255, 0.664) 35%,
-        rgba(22, 128, 250, 0.979) 100%
+        rgba(112, 112, 112, 0.863) 0%,
+        rgba(171, 171, 172, 0.664) 35%,
+        rgba(100, 100, 100, 0.979) 100%
       );
         color: rgba(73, 3, 236, 0.664);
         font-weight: bold;
@@ -75,14 +79,14 @@ body {
         &:hover {
             transform: translate(2.6px, -2.6px); /* Slightly move the button */
             box-shadow: 2rem 4rem 6rem rgba(0, 0, 0, 0.42);
-            background-color: #0056b3;   
+            background-color: #000000;   
         
         }
 
         &:active {
             transform: translate(2.6px, -2.6px); /* Slightly move the button */
             box-shadow: 2rem 4rem 6rem rgba(0, 0, 0, 0.42);
-            background-color: #46dcf0fa;
+            background-color: #3f3f3ffa;
         }
         .h2 {
         font-size: 2rem;
@@ -163,7 +167,7 @@ body {
         
 
     }
-    .btn1 {
+    .btn-1 {
         justify-content: space-between;
         padding: 3rem 5rem;
         border-radius: 0.5rem;  
