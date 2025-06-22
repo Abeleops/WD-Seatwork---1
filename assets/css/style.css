@@ -191,6 +191,12 @@ body {
         color: #0004f8;
         margin-right: 2rem;
     }
+    .search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10rem;
+    }
     
 }    
 } 
