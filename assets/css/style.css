@@ -8,10 +8,8 @@
 }
 html {
   
-    display: flex;
-    flex-wrap: wrap;
     height: 100vh;
-    width: 100%;
+    
 }
 body {
     background-image: url('./luffy_background.jpg'); 
