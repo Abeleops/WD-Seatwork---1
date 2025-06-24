@@ -60,7 +60,10 @@ body {
         display: flex;
         gap: 4rem;
         
-        .tc05 {
+    
+
+    }
+    .tc05 {
             font-size: 1.5rem;
             color: #ffffff;
             font-weight: bold;
@@ -70,8 +73,6 @@ body {
                 color: #3f3f3f;
             }
         }
-
-    }
         
 
 
@@ -90,11 +91,12 @@ body {
         font-size: 1.5rem;
          background: linear-gradient(
         90deg,
-        rgba(112, 112, 112, 0.863) 0%,
-        rgba(171, 171, 172, 0.664) 35%,
-        rgba(100, 100, 100, 0.979) 100%
+        rgba(255, 0, 0, 0.863) 0%,
+        rgba(255, 0, 0, 0.664) 35%,
+        rgba(17, 0, 255, 0.863) 65%,
+        rgb(47, 0, 255) 100%
       );
-        color: rgba(73, 3, 236, 0.664);
+        color: rgb(0, 0, 0);
         font-weight: bold;
         transition: background-color 0.3s ease;
 
