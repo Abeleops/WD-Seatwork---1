@@ -260,7 +260,6 @@ body {
   object-fit: contain;
   filter: brightness(0) invert(1) grayscale(1) opacity(0.95);
 }
-
 .footer5-social {
   display: flex;
   gap: 1.5rem;
