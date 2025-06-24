@@ -120,7 +120,7 @@ body {
 
 .logo {
     justify-self: flex-end;
-    max-width: 8rem;
+    max-width: 25rem;
 }
 .logo-container {
     position: relative;
