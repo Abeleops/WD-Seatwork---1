@@ -23,7 +23,10 @@ body {
 
 .header1 {
 background-image: url('./img/sea.jpg');   
-  display: flex;
+  background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 3rem;
@@ -161,11 +164,12 @@ background-image: url('./img/sea.jpg');
   font-weight: bold;
   transition: color 0.2s;
 
-     &:hover{
-    background-color: black;
-     }
+   
 }
 
+.ul li a:hover {
+  background-color: black;
+}
 .ul li a:active{
   color: white;
   background-color: red;
