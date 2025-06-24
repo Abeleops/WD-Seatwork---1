@@ -17,17 +17,19 @@ body {
 
 .opening{
     display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     align-self: center;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: flex-start;
+    padding: 2rem;
 }
 
 .header1 {
     display: flex;
     align-items: center;
-    padding: 0.5rem 3rem;
     justify-content: space-between;
+    padding: 0.5rem 3rem;
     background-color: #00a2ff;
 
 
