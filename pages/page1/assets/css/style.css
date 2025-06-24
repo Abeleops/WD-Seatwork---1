@@ -378,3 +378,25 @@ display: flex;
   background: #e0e0e0;
 }
 }
+
+.back-btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.back-btn {
+  background: #0056b3;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.back-btn:hover {
+  background: #003974;
+}
