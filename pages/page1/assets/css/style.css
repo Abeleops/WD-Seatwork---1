@@ -259,8 +259,63 @@ display: flex;
   gap: 0.7rem;
 }
 
-.logo {
-  width: 2.2rem;
-  height: 2.2rem;
+.logo2 {
+  width: 4rem;
+  height: 5rem;
   object-fit: contain;
+
+}
+.brand {
+  color: #19d219;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar4 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar4 ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar4 li a {
+  color: #232323;
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+  padding: 0.2rem 0.5rem;
+}
+
+.navbar4 li a:hover {
+  color: #19d219;
+}
+
+.right4 {
+  display: flex;
+  align-items: center;
+}
+
+.get-started {
+  background: #19d219;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(25,210,25,0.08);
+}
+
+.get-started:hover {
+  background: #13a813;
 }
