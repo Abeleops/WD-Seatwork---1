@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: beige;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+.opening {
+  display: flex;
+  align-self: center;
+  padding: 2rem;
+}
