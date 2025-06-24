@@ -29,6 +29,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 3rem;
+    gap:9rem;
     background-color: #00a2ff;
 
 
@@ -109,7 +110,7 @@ body {
 
 .header2 {
     display: flex;
-    align-items: center;
+    align-items: self-start;
     justify-content: space-between;
     padding: 0.5rem 3rem;
     background-color: #00a2ff;
