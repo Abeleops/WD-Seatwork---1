@@ -37,14 +37,6 @@ body {
         display: flex;
         gap: 0.5rem;
 
-        .logo {
-            max-width: 8rem;
-            
-        }
-        .logo:hover {
-            transform: scale(1.1); 
-            transition: transform 0.3s ease;
-        }
         .name{
             font-size: 2rem;
             color: #000000;
@@ -96,6 +88,20 @@ body {
         margin-right: 2rem;
     }
 }
+.left-body{
+        align-items: center;
+        display: flex;
+        gap: 0.5rem;
+
+        .logo {
+            max-width: 8rem;
+            
+        }
+        .logo:hover {
+            transform: scale(1.1); 
+            transition: transform 0.3s ease;
+        }
+    }
     
 .footer {
     margin-top: auto;
@@ -108,15 +114,5 @@ body {
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
 }
-.footer1 {
-    margin-top: auto;
-    display: flex;
-    background-color: #00a2ffd9;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 0.5rem 1rem;
-}
+
 
