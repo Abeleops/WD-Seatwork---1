@@ -71,7 +71,11 @@ body {
 
 
 .hero {
-    display: flex;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+
 }
     .btn {
         display: none;
@@ -103,8 +107,13 @@ body {
         }
 }
 
+.left-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/* Nested elements must be written as normal descendant selectors */
+/* show's button when being hovered */
 .left-body:hover .btn {
     display: inline-block;
 }
