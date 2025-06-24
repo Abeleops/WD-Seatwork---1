@@ -89,6 +89,7 @@ body {
         padding: 1rem 2rem;
         border-radius: 0.5rem;  
         font-size: 1.5rem;
+        transition: 0.5 ease-in-out;
          background: linear-gradient(
         90deg,
         rgba(255, 0, 0, 0.863) 0%,
@@ -126,8 +127,10 @@ body {
 }
 
 .logo {
+
     justify-self: flex-end;
     max-width: 25rem;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .logo-container {
     position: relative;
