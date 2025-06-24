@@ -239,3 +239,28 @@ display: flex;
 .navbar2 li a:hover {
   color: #ff9900;
 }
+
+.header4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  max-width: 900px;
+  border: 2px solid #19d219;
+}
+
+.left4 {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.logo {
+  width: 2.2rem;
+  height: 2.2rem;
+  object-fit: contain;
+}
