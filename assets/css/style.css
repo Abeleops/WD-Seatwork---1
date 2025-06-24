@@ -74,8 +74,9 @@ body {
     display: flex;;
 }
     .btn {
+        display: none;
         justify-content: space-evenly;
-        padding: 2rem 4rem;
+        padding: 1rem 2rem;
         border-radius: 0.5rem;  
         font-size: 1.5rem;
          background: linear-gradient(
@@ -102,14 +103,14 @@ body {
         }
 }
 
+
 /* Nested elements must be written as normal descendant selectors */
-.left-body {
-    align-items: center;
-    display: flex;
-    gap: 0.5rem;
+.left-body:hover .btn {
+    display: inline-block;
 }
 
 .logo {
+    justify-self: flex-end;
     max-width: 8rem;
 }
 
