@@ -23,110 +23,7 @@ body {
     /* border: 1px; (optional, remove if not needed) */
     justify-content: flex-start;
 }
-.header {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem 2rem;
-    justify-content: space-between;
-    background-color: #ffffffc2;
-
-
-    }
-    .left{
-        align-items: center;
-        display: flex;
-        gap: 0.5rem;
-
-        .logo {
-            max-width: 8rem;
-        }
-        .logo:hover {
-            transform: scale(1.1); 
-            transition: transform 0.3s ease;
-        }
-        .name{
-            font-size: 2rem;
-            color: #000000;
-        }
-        .name:hover {
-            color: #3f3f3f;
-           font-weight: bold;
-      }
-        }
-        
-    
-    .right {
-        display: flex;
-        gap: 4rem;
-        
-
-    }
-    .btn {
-        justify-content: space-between;
-        padding: 2rem 4rem;
-        border-radius: 0.5rem;  
-        font-size: 1.5rem;
-         background: linear-gradient(
-        90deg,
-        rgba(112, 112, 112, 0.863) 0%,
-        rgba(171, 171, 172, 0.664) 35%,
-        rgba(100, 100, 100, 0.979) 100%
-      );
-        color: rgba(73, 3, 236, 0.664);
-        font-weight: bold;
-        transition: background-color 0.3s ease;
-
-        &:hover {
-            transform: translate(2.6px, -2.6px); /* Slightly move the button */
-            box-shadow: 2rem 4rem 6rem rgba(0, 0, 0, 0.42);
-            background-color: #000000;   
-        
-        }
-
-        &:active {
-            transform: translate(2.6px, -2.6px); /* Slightly move the button */
-            box-shadow: 2rem 4rem 6rem rgba(0, 0, 0, 0.42);
-            background-color: #3f3f3ffa;
-        }
-        .h2 {
-        font-size: 2rem;
-        font-weight: bold;
-        color: #0004f8;
-        margin-right: 2rem;
-    }
-}
-    
-.footer {
-    margin-top: auto;
-    display: flex;
-    background-color: #ffffff;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    color: #000000;
-    font-size: 1.2rem;
-    padding: 0.5rem 1rem;
-}
-.footer1 {
-    margin-top: auto;
-    display: flex;
-    background-color: #00a2ffd9;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 0.5rem 1rem;
-}
-
-.hero {
-    background-color: #ffffffd8;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center  ;
-
-    .header1 {
+.header1 {
     display: flex;
     align-items: center;
     padding: 0.5rem 3rem;
@@ -150,7 +47,7 @@ body {
            font-weight: bold;
            
         } 
-    }
+    
     
     .center1 {
         flex: 1;
@@ -208,5 +105,3 @@ body {
         }
 
 }
-
-
