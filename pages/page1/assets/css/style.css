@@ -22,12 +22,12 @@ body {
 }
 
 .header1 {
+background-image: url('./img/sea.jpg');   
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 3rem;
   gap: 9rem;
-  background-color: #00a2ff;
 }
 .left1 {
   display: flex;
@@ -36,10 +36,10 @@ body {
 }
 .name {
   font-size: 2rem;
-  color: #0056b3;
+  color: #000000;
 }
 .name:hover {
-  color: #000000;
+  color: #2600ff;
   font-weight: bold;
 }
 
@@ -96,7 +96,6 @@ body {
 }
 
 .header2 {
-  background-image: url('./img/sea.jpg');   
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -107,7 +106,7 @@ body {
   display: flex;
   align-items: center;
   flex: 1;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 .name2 {
   font-size: 2rem;
@@ -129,8 +128,8 @@ body {
 .logo {
   max-width: 9rem;
 }
-.logo2:hover {
-  transform: scale(1.1);
+.logo:hover {
+  transform: scale(1.8);
   transition: transform 0.3s ease;
 }
 
