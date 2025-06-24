@@ -18,10 +18,8 @@ body {
 
 .opening{
     display: flex;
-    flex-direction: column;
     flex-grow: 1;
     align-self: center;
-    flex-direction: column;
     min-height: 100vh;
     padding: 2rem;
 }
