@@ -55,7 +55,7 @@ background-image: url('./img/sea.jpg');
     max-width: 9rem;
   }
   .logo:hover {
-    transform: scale(1.1);
+    transform: scale(1.8);
     transition: transform 0.3s ease;
   }
 
@@ -152,7 +152,7 @@ background-image: url('./img/sea.jpg');
   gap: 2rem;
   list-style-type: none;
   margin: 1rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 .ul li a{
   text-decoration: none;
@@ -161,8 +161,12 @@ background-image: url('./img/sea.jpg');
   font-weight: bold;
   transition: color 0.2s;
 
+     &:hover{
+    background-color: black;
+     }
 }
-.ul li a:hover{
-  color: #000000;
-  background-color: black;
+
+.ul li a:active{
+  color: white;
+  background-color: red;
 }
