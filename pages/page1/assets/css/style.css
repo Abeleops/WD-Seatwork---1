@@ -127,6 +127,7 @@ body {
         .name2{
             font-size: 2rem;
             color: #0056b3;
+
         }
         .name2:hover {
             color: #000000;
@@ -146,8 +147,8 @@ body {
          .logo {
             max-width: 9rem;
         }
-         .logo2:hover {
-            transform: scale(1.1); 
+         .logo:hover {
+            transform: scale(1.5); 
             transition: transform 0.3s ease;
     }
 
