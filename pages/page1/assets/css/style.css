@@ -110,10 +110,10 @@ body {
 
 .header2 {
     display: flex;
-    align-items: self-start;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 0.5rem 3rem;
-    background-color: #00a2ff;
+    background-color: #000000;
 
 
     }
@@ -121,13 +121,14 @@ body {
         display: flex;
         align-items: center;
         flex: 1;
+        flex-direction: row-reverse;
 
         }
-        .name{
+        .name2{
             font-size: 2rem;
             color: #0056b3;
         }
-        .name:hover {
+        .name2:hover {
             color: #000000;
            font-weight: bold;
            
@@ -141,11 +142,11 @@ body {
         align-items: center;
         justify-content: center;
         height: 100%;
-        
+    }
          .logo {
             max-width: 9rem;
         }
-         .logo:hover {
+         .logo2:hover {
             transform: scale(1.1); 
             transition: transform 0.3s ease;
     }
@@ -160,7 +161,7 @@ body {
         
 
     }
-}
+
     .btn-2 {
         justify-content: space-between;
         padding: 1rem 2rem;
