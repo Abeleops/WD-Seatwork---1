@@ -88,29 +88,29 @@ body {
         margin-right: 2rem;
     }
 }
-.hero{
+.hero {
     background-image: url('./luffy_background.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     display: flex;
     flex-wrap: wrap;
-    background-image: none;
+}
 
-        .left-body{
-        align-items: center;
-        display: flex;
-        gap: 0.5rem;
+/* Nested elements must be written as normal descendant selectors */
+.left-body {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+}
 
-        .logo {
-            max-width: 8rem;
-            
-        }
-        .logo:hover {
-            transform: scale(1.1); 
-            transition: transform 0.3s ease;
-        }
-    }
+.logo {
+    max-width: 8rem;
+}
+
+.logo:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
 }
 
 .footer {
