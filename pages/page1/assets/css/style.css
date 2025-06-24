@@ -142,30 +142,27 @@ background-image: url('./img/sea.jpg');
   gap: 1rem;
 }
 
-.btn-2 {
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  border-radius: 0.5rem;
+.nav{
+  flex: 2;
+  display: flex;
+  justify-content: flex-start;
+}
+.ul{
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  margin: 1rem;
+  padding: 2rem;
+}
+.ul li a{
+  text-decoration: none;
+  color: red;
   font-size: 1.5rem;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 183, 255, 0.425) 0%,
-    rgba(0, 153, 255, 0.664) 35%,
-    rgba(22, 128, 250, 0.979) 100%
-  );
-  color: rgba(73, 3, 236, 0.664);
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  transition: color 0.2s;
 
-  &:hover {
-    transform: translate(2.6px, -2.6px); /* Slightly move the button */
-    box-shadow: 2rem 4rem 6rem rgba(0, 0, 0, 0.42);
-    background-color: #0056b3;
-  }
-
-  &:active {
-    transform: translate(2.6px, -2.6px); /* Slightly move the button */
-    box-shadow: 2rem 4rem 6rem rgba(0, 0, 0, 0.42);
-    background-color: #46dcf0fa;
-  }
+}
+.ul li a:hover{
+  color: #000000;
+  background-color: black;
 }
