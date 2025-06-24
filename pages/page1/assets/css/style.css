@@ -100,6 +100,7 @@ background-image: url('./img/sea.jpg');
   align-items: flex-start;
   justify-content: space-between;
   padding: 0.5rem 3rem;
+  background-color: white;
  
 }
 .left2 {
