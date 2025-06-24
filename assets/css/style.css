@@ -4,11 +4,20 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration:none;
+    
 }
 html {
     height: 100%;
 }
 body {
+    background-image: url('./luffy_background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -89,12 +98,7 @@ body {
     }
 }
 .hero {
-    background-image: url('./luffy_background.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;;
 }
 
 /* Nested elements must be written as normal descendant selectors */
