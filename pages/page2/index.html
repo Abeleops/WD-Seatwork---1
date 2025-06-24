@@ -4,43 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>FOOTER</title>
+    <title>FOOTERS</title>
 </head>
 <body>
-<h1 class="opening">MY FOOTERS</h1>
+<h2 class="opening">MY FOOTERS</h2>
 
-<footer class="footer1">
-  <div class="left1">
-    <h2 class="name">Squirtle</h2>
+<!-- FOOTER 1: Logo, Name, Social, Contact, Subscribe -->
+<footer class="footer1 dreamy-footer">
+  <div class="footer-col logo-col">
+    <img src="./assets/css/imgs/turtle.png" alt="Logo" class="footer-logo">
+    <div class="footer-brand">Squirtle</div>
+    <div class="footer-social">
+      <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/twitter.svg" alt="Twitter"></a>
+      <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" alt="Instagram"></a>
+    </div>
   </div>
-  <div class="center1">
-    <img src="./assets/css/img/turtle.png" alt="" class="logo">
+  <div class="footer-col contact-col">
+    <div class="footer-title">CONTACT US</div>
+    <div>hello@squirtle.com</div>
+    <div>24 Atlantic Ave, Brooklyn, NY 11201</div>
+    <div>+1 929 328 84 87</div>
   </div>
-  <div class="right1">
-    <a href="#" class="btn-1">INFO</a>
-    <a href="#" class="btn-1">TYPE</a>
+  <div class="footer-col subscribe-col">
+    <div class="footer-title">SUBSCRIBE</div>
+    <div>Get updates about Squirtle news.</div>
+    <form class="footer-form">
+      <input type="email" placeholder="Email">
+      <button type="submit">→</button>
+    </form>
+      <div class="footer-bottom-text">©2025 Pokemon. All rights reserved</div>
   </div>
 </footer>
 
-<footer class="footer2">
-  <div class="left2">
-    <img src="./assets/css/img/pokemon.png" alt="" class="logo">
-  </div>
-  <nav class="navbar">
-    <ul>
+<!-- FOOTER 2: Simple horizontal nav, logo, copyright -->
+<footer class="footer2 dreamy-footer light">
+  <nav>
+    <ul class="footer-links">
       <li><a href="#">Home</a></li>
-      <li class="active"><a href="#"><span>Pokédex</span></a></li>
-      <li><a href="#"><span>Attributes</span></a></li>
+      <li><a href="#">Pokédex</a></li>
+      <li><a href="#">Attributes</a></li>
     </ul>
   </nav>
+  <img src="./assets/css/imgs/pokemon.png" alt="Logo" class="footer-logo-small">
+  <div class="footer-bottom-text">©2025 Pokemon. All rights reserved</div>
 </footer>
 
-<footer class="footer3">
-  <div class="left3">
-    <img src="./assets/css/img/pokemon.png" alt="" class="logo">
+<!-- FOOTER 3: Dark bar, logo left, nav center -->
+<footer class="footer3 dreamy-footer">
+  <div class="footer-col left3">
+    <img src="./assets/css/img/pokemon.png" alt="Logo" class="footer-logo">
   </div>
-  <nav class="navbar2">
-    <ul>
+  <nav class="footer-col navbar2">
+    <ul class="footer-links">
       <li><a href="#">ABOUT</a></li>
       <li><a href="#">BLOG</a></li>
       <li><a href="#">SHOP</a></li>
@@ -48,42 +64,12 @@
       <li><a href="#">CONTACTS</a></li>
     </ul>
   </nav>
-</footer>
-
-<footer class="footer4">
-  <div class="left4">
-    <img src="./assets/css/img/pokemon.png" alt="Logo" class="logo2">
-    <span class="brand">Pokemon</span>
-  </div>
-  <nav class="navbar4">
-    <ul>
-      <li><a href="#">Pokemons</a></li>
-      <li><a href="#">Events</a></li>
-      <li><a href="#">News</a></li>
-    </ul>
-  </nav>
-  <div class="right4">
-    <a href="#" class="get-started">Download All Informations</a>
-  </div>
-</footer>
-
-<footer class="footer5">
-  <div class="icon-left">
-    <button class="menu-btn" aria-label="Menu">&#9776;</button>
-  </div>
-  <div class="center5">
-    <img src="./assets/css/img/pokemon.png" alt="Logo" class="logo5">
-    <span class="brand">Pokemon</span>
-  </div>
-  <div class="icon-right">
-    <button class="search-btn" aria-label="Search">&#128269;</button>
-  </div>
-</footer>
-
-<div class="back-btn-container">
-  <a href="../../index.html" class="back-btn">Back to Main Page</a>
-  <a href="../page1/index.html" class="back-btn">HEADERS</a>
+  <div class="footer-bottom dark">
+  © 2024 Pokemon. All rights reserved
 </div>
+</footer>
+
+
 
 </body>
 </html>
