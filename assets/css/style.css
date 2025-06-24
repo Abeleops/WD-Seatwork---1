@@ -138,9 +138,7 @@ body {
 .footer {
     margin-top: auto;
     display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    align-self: flex-start;
     color: #000000;
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
