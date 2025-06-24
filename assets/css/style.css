@@ -89,7 +89,15 @@ body {
     }
 }
 .hero{
-.left-body{
+    background-image: url('./luffy_background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-wrap: wrap;
+    background-image: none;
+
+        .left-body{
         align-items: center;
         display: flex;
         gap: 0.5rem;
@@ -103,7 +111,8 @@ body {
             transition: transform 0.3s ease;
         }
     }
-    }
+}
+
 .footer {
     margin-top: auto;
     display: flex;
