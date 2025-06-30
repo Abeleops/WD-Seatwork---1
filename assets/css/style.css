@@ -4,14 +4,25 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration:none;
+    
 }
 html {
-    height: 100%;
+  
+    height: 100vh;
+    
 }
 body {
+    background-image: url('./luffy_background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 
 
 }
@@ -28,25 +39,15 @@ body {
     align-items: center;
     padding: 0.5rem 2rem;
     justify-content: space-between;
-    background-color: #ffffffc2;
-
-
     }
     .left{
         align-items: center;
         display: flex;
         gap: 0.5rem;
 
-        .logo {
-            max-width: 8rem;
-        }
-        .logo:hover {
-            transform: scale(1.1); 
-            transition: transform 0.3s ease;
-        }
         .name{
             font-size: 2rem;
-            color: #000000;
+            color: #ffffff;
         }
         .name:hover {
             color: #3f3f3f;
@@ -59,20 +60,44 @@ body {
         display: flex;
         gap: 4rem;
         
+    
 
     }
+    .tc05 {
+            font-size: 1.5rem;
+            color: #ffffff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #3f3f3f;
+            }
+        }
+        
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
     .btn {
-        justify-content: space-between;
-        padding: 2rem 4rem;
+        display: none;
+        justify-content: space-evenly;
+        padding: 1rem 2rem;
         border-radius: 0.5rem;  
         font-size: 1.5rem;
+        transition: 0.5 ease-in-out;
          background: linear-gradient(
         90deg,
-        rgba(112, 112, 112, 0.863) 0%,
-        rgba(171, 171, 172, 0.664) 35%,
-        rgba(100, 100, 100, 0.979) 100%
+        rgba(255, 0, 0, 0.863) 0%,
+        rgba(255, 0, 0, 0.664) 35%,
+        rgba(17, 0, 255, 0.863) 65%,
+        rgb(47, 0, 255) 100%
       );
-        color: rgba(73, 3, 236, 0.664);
+        color: rgb(0, 0, 0);
         font-weight: bold;
         transition: background-color 0.3s ease;
 
@@ -88,125 +113,45 @@ body {
             box-shadow: 2rem 4rem 6rem rgba(0, 0, 0, 0.42);
             background-color: #3f3f3ffa;
         }
-        .h2 {
-        font-size: 2rem;
-        font-weight: bold;
-        color: #0004f8;
-        margin-right: 2rem;
-    }
 }
-    
+
+.left-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* show's button when being hovered */
+.left-body:hover .btn {
+    display: inline-block;
+}
+
+.logo {
+
+    justify-self: flex-end;
+    max-width: 25rem;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.logo-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+
+.logo:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
 .footer {
     margin-top: auto;
     display: flex;
-    background-color: #ffffff;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    color: #000000;
+    align-self: flex-start;
+    color: #ffffff;
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
-}
-.footer1 {
-    margin-top: auto;
-    display: flex;
-    background-color: #00a2ffd9;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 0.5rem 1rem;
-}
-
-.hero {
-    background-color: #ffffffd8;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center  ;
-
-    .header1 {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem 3rem;
-    justify-content: space-between;
-    background-color: #00a2ff;
-
-
-    }
-    .left1{
-        align-items: center;
-        display: flex;
-        flex: 1;
-
-        }
-        .name{
-            font-size: 2rem;
-            color: #0056b3;
-        }
-        .name:hover {
-            color: #000000;
-           font-weight: bold;
-           
-        } 
-    }
-    
-    .center1 {
-        flex: 1;
-        display: flex;
-        flex-direction: center;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        
-         .logo {
-            max-width: 9rem;
-        }
-         .logo:hover {
-            transform: scale(1.1); 
-            transition: transform 0.3s ease;
-    }
-
-    
-    .right1 {
-        flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        
-
-    }
-}
-    .btn-1 {
-        justify-content: space-between;
-        padding: 1rem 2rem;
-        border-radius: 0.5rem;  
-        font-size: 1.5rem;
-         background: linear-gradient(
-        90deg,
-        rgba(0, 183, 255, 0.425) 0%,
-        rgba(0, 153, 255, 0.664) 35%,
-        rgba(22, 128, 250, 0.979) 100%
-      );
-        color: rgba(73, 3, 236, 0.664);
-        font-weight: bold;
-        transition: background-color 0.3s ease;
-
-        &:hover {
-            transform: translate(2.6px, -2.6px); /* Slightly move the button */
-            box-shadow: 2rem 4rem 6rem rgba(0, 0, 0, 0.42);
-            background-color: #0056b3;   
-        
-        }
-
-        &:active {
-            transform: translate(2.6px, -2.6px); /* Slightly move the button */
-            box-shadow: 2rem 4rem 6rem rgba(0, 0, 0, 0.42);
-            background-color: #46dcf0fa;
-        }
-
 }
 
 
