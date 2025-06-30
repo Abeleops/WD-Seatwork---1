@@ -294,6 +294,9 @@ body {
   display: flex;
   justify-content: center;
   margin: 2rem 0;
+}
+
+.back-btn {
   background: #0056b3;
   color: #fff;
   padding: 0.8rem 2rem;
@@ -305,6 +308,6 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.back-btn-.back-btn-container {
+.back-btn:hover {
   background: #003974;
 }
