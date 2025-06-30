@@ -294,7 +294,7 @@ body {
   margin: 2rem 0;
 }
 
-.back-btn {
+.back-btn-container {
   background: #0056b3;
   color: #fff;
   padding: 0.8rem 2rem;
@@ -306,6 +306,6 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.back-btn:hover {
+.back-btn-.back-btn-container {
   background: #003974;
 }
