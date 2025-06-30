@@ -288,13 +288,12 @@ body {
   border-top: 1px solid #b3e0fc;
   padding-top: 1rem;
 }
+
+
 .back-btn-container {
   display: flex;
   justify-content: center;
   margin: 2rem 0;
-}
-
-.back-btn-container {
   background: #0056b3;
   color: #fff;
   padding: 0.8rem 2rem;
