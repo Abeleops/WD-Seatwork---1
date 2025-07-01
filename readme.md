@@ -150,6 +150,6 @@ WD-SEATWORK--1
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
-|-|-|-|
-| First act | 5 headers 5 footers| https://abeleops.github.io/WD-Seatwork---1/ |
+| Title | Purpose | Link | Grade |
+|-|-|-|-|
+| First act | 5 headers 5 footers| https://abeleops.github.io/WD-Seatwork---1/ | 94 |
