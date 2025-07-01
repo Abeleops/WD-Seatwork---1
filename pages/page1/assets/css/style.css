@@ -202,7 +202,7 @@ display: flex;
 
 .brand {
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -211,6 +211,7 @@ display: flex;
   flex: 1;
   display: flex;
   justify-content: center;
+  gap: 2rem;
 }
 
 .navbar2 ul {
@@ -259,7 +260,7 @@ display: flex;
   object-fit: contain;
 
 }
-.brand {
+.brand4 {
   color: #19d219;
   font-size: 1.3rem;
   font-weight: bold;
