@@ -115,9 +115,9 @@ WD-SEATWORK--1
 |     |  └─ css
 |     |  |   └─ style.css
 |     |  └─ img
-|     |  |   └─ (empty)
-|     |  └─ js
-|     |      └─ (empty or script.js if you have one)
+|     |     └─ (empty)
+|     |  
+|     |      
 |     └─ index.html
 |  └─ page2
 |     └─ assets
