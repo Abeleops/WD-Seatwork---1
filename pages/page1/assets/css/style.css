@@ -178,12 +178,6 @@ display: flex;
 }
 
 
-
-.navbar li.active a {
-    background-color: #ff00008f;
-    color: white;
-}
-
 .navbar a:hover {
     background-color: #ff0000;
 }
