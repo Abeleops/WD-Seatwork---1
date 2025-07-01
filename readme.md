@@ -100,48 +100,49 @@ Guiding Question:
 
 ```
 WD-SEATWORK--1
-─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   ├─ luffy_background.jpg
-|   |   └─AbeleOps.png
-|   |   
-|   └─ js
-|       └─ (empty or script.js if you have one)
-└─ pages
-|  └─ page1
-|     └─ assets
-|     |  └─ css
-|     |  |   └─ style.css
-|     |  └─ img
-|     |     └─ (empty)
-|     |  
-|     |      
-|     └─ index.html
-|  └─ page2
-|     └─ assets
-|     |  └─ css
-|     |  |   └─ style.css
-|     |  └─ img
-|     |  |   ├─ facebook.png
-|     |  |   ├─ instagram.png
-|     |  |   ├─ pokemon.png
-|     |  |   ├─ turtle.png
-|     |  |   └─ twitter.png
-|     |  └─ js
-|     |      └─ (empty or script.js if you have one)
-|     └─ index.html
-|  └─ page3
-|     └─ assets
-|     |  └─ css
-|     |  |   └─ (empty or style.css if you have one)
-|     |  └─ img
-|     |  |   └─ (empty)
-|     |  └─ js
-|     |      └─ (empty or script.js if you have one)
-|     └─ (index.html if you have one)
-└─ index.html
+├─ assets
+│  ├─ css
+│  │  └─ style.css
+│  ├─ img
+│  │  ├─ luffy_background.jpg
+│  │  └─ AbeleOps.png
+│  └─ js
+│     └─ (empty or script.js if you have one)
+├─ pages
+│  ├─ page1
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  ├─ pokemon.png
+│  │  │  │  ├─ sea.jpg
+│  │  │  │  └─ turtle.png
+│  │  │  └─ js
+│  │  │     └─ (empty or script.js if you have one)
+│  │  └─ index.html
+│  ├─ page2
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  ├─ facebook.png
+│  │  │  │  ├─ instagram.png
+│  │  │  │  ├─ pokemon.png
+│  │  │  │  ├─ turtle.png
+│  │  │  │  └─ twitter.png
+│  │  │  └─ js
+│  │  │     └─ (empty or script.js if you have one)
+│  │  └─ index.html
+│  ├─ page3
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ (empty or style.css if you have one)
+│  │  │  ├─ img
+│  │  │  │  └─ (empty)
+│  │  │  └─ js
+│  │  │     └─ (empty or script.js if you have one)
+│  │  └─ (index.html if you have one)
+├─ index.html
 └─ readme.md
 ```
 
