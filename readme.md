@@ -105,8 +105,8 @@ WD-SEATWORK--1
 |   |   └─ style.css
 |   └─ img
 |   |   ├─ luffy_background.jpg
-|   |   ├─ AbeleOps.png
-|   |   └─ nyebe_white.png
+|   |   └─AbeleOps.png
+|   |   
 |   └─ js
 |       └─ (empty or script.js if you have one)
 └─ pages
