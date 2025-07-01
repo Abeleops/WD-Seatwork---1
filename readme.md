@@ -75,11 +75,12 @@ Guiding Question:
 - programming languages: HTML & CSS
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+Multi-page layout: You have multiple pages (page1, page2, page3), each with its own assets and index.html.
+Asset organization: CSS, images, and JS files are organized into separate folders for both global and page-specific use.
+Reusable styles: External CSS files are used for styling.
+Image assets: Each page has its own set of images, indicating visual content is important.
+Scalable structure: The folder setup allows for easy addition of new pages and assets.
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
