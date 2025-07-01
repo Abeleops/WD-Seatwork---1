@@ -100,23 +100,47 @@ Guiding Question:
 
 ```
 WD-ProjectName
-└─ assets
+─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   |   ├─ luffy_background.jpg
+|   |   ├─ AbeleOps.png
+|   |   └─ nyebe_white.png
 |   └─ js
-|       └─ script.js
+|       └─ (empty or script.js if you have one)
 └─ pages
-|  └─ pageName
+|  └─ page1
 |     └─ assets
 |     |  └─ css
-|     |  |  └─ style.css
+|     |  |   └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  |   └─ (empty)
 |     |  └─ js
-|     |     └─ script.js
+|     |      └─ (empty or script.js if you have one)
 |     └─ index.html
+|  └─ page2
+|     └─ assets
+|     |  └─ css
+|     |  |   └─ style.css
+|     |  └─ img
+|     |  |   ├─ facebook.png
+|     |  |   ├─ instagram.png
+|     |  |   ├─ pokemon.png
+|     |  |   ├─ turtle.png
+|     |  |   └─ twitter.png
+|     |  └─ js
+|     |      └─ (empty or script.js if you have one)
+|     └─ index.html
+|  └─ page3
+|     └─ assets
+|     |  └─ css
+|     |  |   └─ (empty or style.css if you have one)
+|     |  └─ img
+|     |  |   └─ (empty)
+|     |  └─ js
+|     |      └─ (empty or script.js if you have one)
+|     └─ (index.html if you have one)
 └─ index.html
 └─ readme.md
 ```
